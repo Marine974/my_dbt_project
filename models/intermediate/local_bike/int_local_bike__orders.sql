@@ -15,6 +15,6 @@ WITH orders AS (
 select 
     *,
     CASE WHEN shipping_delay is null THEN 'Not shipped yet'
-        ELSE WHEN shipping_delay < 0 THEN 'Delayed'
-        ELSE 'On time' END as shipping_status
+         WHEN shipping_delay < 0 THEN 'Delayed'
+         ELSE 'On time' END as shipping_status
 from orders
