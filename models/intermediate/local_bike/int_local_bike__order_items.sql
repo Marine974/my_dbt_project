@@ -1,6 +1,6 @@
 select
     oi.order_items_id,
-    order_id,
+    oi.order_id,
     oi.product_id,
     oi.quantity,
     oi.product_unit_price,
