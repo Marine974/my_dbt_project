@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: mrt_local_bike_orders_yearly_report
+    description: '{{ doc("mrt_local_bike_orders_yearly_report") }}'
